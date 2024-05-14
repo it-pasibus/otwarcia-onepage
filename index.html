@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pasibus Avenida Poznań</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .montserrat {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .montserrat-medium {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .montserrat-semibold {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .montserrat-bold {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        .montserrat-black {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+    </style>
+</head>
+
+<body class="montserrat">
+
+
+    <a href="https://pasibus.pl/pl/pasiappka/" target="_blank"
+        class="shadow-black/50 shadow-xl fixed bottom-40 right-0 z-30 flex group rounded-l-full">
+        <div
+            class="py-3 pr-6 bg-black rounded-l-full text-white flex flex-col justify-center items-start pl-8 montserrat-black text-xl lg:text-3xl">
+            <p>POBIERZ</p>
+            <p>APKĘ!</p>
+        </div>
+        <div class="bg-[#afca0b] w-4 group-hover:w-8 transition-all duration-500"></div>
+    </a>
+    <div class="w-full relative">
+
+        <div class="relative">
+            <img class="hidden md:block w-full" src="images/frame_1.png" alt="">
+            <img class="block md:hidden w-full" src="images/frame_1_mobile.png" alt="">
+            <!-- regulamin -->
+            <div class="hidden md:block absolute left-0 bottom-0 right-0 w-2/3 h-1/5 mx-auto xbg-red-500 pt-6">
+                <div class="flex gap-8 xl:gap-10 2xl:gap-12 justify-start">
+                    <a href="https://pasibus.pl/pl/regulaminy/"
+                        class="flex gap-2 montserrat-bold items-center uppercase text-sm lg:text-lg xxl:text-lg 2xl:text-xl">
+                        <p>Sprawdź regulamin</p>
+                        <img class="h-5 lg:h-6" src="icons/arrow_icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="md:hidden absolute left-0 bottom-32 sm:bottom-36 right-0 mx-auto xbg-red-500/40 sm:pb-12">
+                <div class="flex gap-8 xl:gap-10 2xl:gap-12 justify-center items-end h-full">
+                    <a href="https://pasibus.pl/pl/regulaminy/"
+                        class="flex gap-2 montserrat-bold items-center uppercase text-xl">
+                        <p>Sprawdź regulamin</p>
+                        <img class="h-5 lg:h-6" src="icons/arrow_icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- end regulamin -->
+        </div>
+        <div class="relative">
+            <img class="hidden md:block w-full " src="images/frame_2.png" alt="">
+
+            <!-- app -->
+            <div class="hidden md:block absolute left-0 bottom-0 right-0 w-2/3 h-1/4 mx-auto xbg-red-500">
+                <div class="flex gap-8 xl:gap-10 2xl:gap-12 justify-end">
+                    <div>
+                        <a target="_blank" class="hover:opacity-80"
+                            href="https://play.google.com/store/apps/details?id=com.pasibus.loyalty">
+                            <img class="w-32 xl:w-40 2xl:w-48" src="images/button_google_play.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a target="_blank" class="hover:opacity-80"
+                            href="https://apps.apple.com/pl/app/pasibus/id6446946441">
+                            <img class="w-32 xl:w-40 2xl:w-48" src="images/button_app_store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end app -->
+            <!-- mobile app -->
+
+            <div class="md:hidden absolute w-full top-80 sm:top-40 h-1/5 sm:h-1/3 bg-purple-500/40x sm:pb-12">
+                <div class="flex gap-8 xl:gap-10 2xl:gap-12 justify-center items-end h-full">
+                    <div>
+                        <a target="_blank" class="hover:opacity-80"
+                            href="https://play.google.com/store/apps/details?id=com.pasibus.loyalty">
+                            <img class="w-32 sm:w-40x sm:w-48" src="images/button_google_play.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a target="_blank" class="hover:opacity-80"
+                            href="https://apps.apple.com/pl/app/pasibus/id6446946441">
+                            <img class="w-32 sm:w-40x sm:w-48" src="images/button_app_store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end mobile app -->
+
+
+            <img class="block md:hidden w-full" src="images/frame_2_mobile.png" alt="">
+
+
+
+            <!-- kupony mobile -->
+
+            <div class="md:hidden absolute w-full top-20 sm:top-40 h-1/4 sm:h-1/5 bg-red-500/40x">
+                <div class="xbg-purple-500/20 h-2/3">
+                    <div class="flex overflow-x-auto xbg-red-200 relative z-10 h-full no-scrollbar -space-x-6">
+                        <img class="shrink-0" src="images/kupon_1.png" alt="">
+                        <img class="shrink-0" src="images/kupon_2.png" alt="">
+                        <img class="shrink-0" src="images/kupon_3.png" alt="">
+                        <img class="shrink-0" src="images/kupon_4.png" alt="">
+                        <img class="shrink-0" src="images/kupon_5.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- end kupony mobile -->
+
+            <!-- video mobile -->
+            <div
+                class="md:hidden flex absolute bottom-0 inset-x-0 flex-col max-h-full justify-end max-w-full sm:pb-10 md:pb-16 ">
+                <div class="aspect-video overflow-hidden md:mb-8">
+                    <iframe class="w-auto h-full aspect-video"
+                        src="https://www.youtube.com/embed/6XBMuyEydzQ?si=OJOJ0HBGwlobmAB8" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div
+                    class="montserrat-bold flex flex-col items-center justify-center uppercase text-sm sm:text-xl md:text-2xl lg:text-3xl gap-4 md:gap-8  py-4 sm:py-8 md:py-12 max-w-full overflow-hidden">
+                    <div class="flex flex-col md:flex-row gap-4 md:gap-8 items-center mb-2">
+                        <p>obserwuj @pasibus na</p>
+                        <div class="flex gap-2 sm:gap-8">
+                            <a class="w-6" href="https://www.facebook.com/pasibus" target="_blank"><img
+                                    src="icons/fb.svg" alt=""></a>
+                            <a class="w-6" href="https://www.instagram.com/pasibus" target="_blank"><img
+                                    src="icons/instagram.svg" alt=""></a>
+                            <a class="w-6" href="https://www.tiktok.com/@pasibus" target="_blank"><img
+                                    src="icons/tik-tok.svg" alt=""></a>
+                            <!-- <a class="w-6" href="https://twitter.com/pasibus" target="_blank"><img src="icons/x.svg" alt=""></a> -->
+                            <!-- <a class="w-6" href="https://www.threads.net/@pasibus" target="_blank"><img src="icons/threads.svg" alt=""></a> -->
+                        </div>
+                    </div>
+                    <div class="flex space-x-2">
+                        <p>obczaj konto</p>
+                        <a class="text-[#afca0b]" target="_blank" href="pasiziomki">pasiziomki</a>
+                        <p>na insta</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end video mobile -->
+        </div>
+        <div class="relative">
+            <div class="absolute inset-0 hidden">
+                <div class="flex justify-center items-center">
+                    <div class="flex-1 flex items-center">
+                        <img class="w-full" src="images/kupon_1.png" alt="">
+                    </div>
+                    <div class="flex-1">
+                        <img class="w-full" src="images/kupon_2.png" alt="">
+                    </div>
+                    <div class="flex-1">
+                        <img class="w-full" src="images/kupon_3.png" alt="">
+                    </div>
+                    <div class="flex-1">
+                        <img class="w-full" src="images/kupon_4.png" alt="">
+                    </div>
+                    <div class="flex-1">
+                        <img class="w-full" src="images/kupon_5.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <img class="hidden md:block w-full" src="images/frame_3.png" alt="">
+
+            <!-- video desktop -->
+            <div class="hidden md:flex absolute bottom-0 inset-0 flex-col max-h-full justify-end max-w-full">
+                <div class="aspect-video rounded-2xl overflow-hidden md:mx-40">
+                    <iframe class="w-full h-full aspect-video"
+                        src="https://www.youtube.com/embed/6XBMuyEydzQ?si=OJOJ0HBGwlobmAB8" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div
+                    class="montserrat-bold flex flex-col items-center justify-center uppercase lg:text-3xl gap-8 py-12 max-w-full overflow-hidden">
+                    <div class="flex flex-col sm:flex-row space-x-8 items-center">
+                        <p>obserwuj @pasibus na</p>
+                        <div class="flex gap-2 sm:gap-8">
+                            <a href="https://www.facebook.com/pasibus" target="_blank"><img src="icons/fb_large.png"
+                                    alt=""></a>
+                            <a href="https://www.instagram.com/pasibus" target="_blank"><img
+                                    src="icons/instagram_large.png" alt=""></a>
+                            <a href="https://www.tiktok.com/@pasibus" target="_blank"><img src="icons/tik-tok_large.png"
+                                    alt=""></a>
+                            <!-- <a href="https://twitter.com/pasibus" target="_blank"><img src="icons/x_large.png" alt=""></a> -->
+                            <!-- <a href="https://www.threads.net/@pasibus" target="_blank"><img src="icons/threads_large.png" alt=""></a> -->
+                        </div>
+                    </div>
+                    <div class="flex space-x-2">
+                        <p>obczaj konto</p>
+                        <a class="text-[#afca0b]" target="_blank"
+                            href="https://www.instagram.com/pasi_ziomki/">pasiziomki</a>
+                        <p>na insta</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end video desktop -->
+        </div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3">
+        <img class="w-full -m-1" src="images/image-1.png" alt="">
+        <img class="w-full -m-1" src="images/image-2.png" alt="">
+        <img class="w-full -m-1 hidden md:block" src="images/image-3.png" alt="">
+        <img class="w-full -m-1 col-span-2 md:col-span-1" src="images/image-4.png" alt="">
+        <img class="w-full -m-1 hidden md:block" src="images/image-5.png" alt="">
+        <img class="w-full -m-1 hidden md:block" src="images/image-6.png" alt="">
+    </div>
+    <div
+        class="bg-black relative text-[#afca0b] flex flex-col lg:flex-row text-xs items-center justify-center uppercase montserrat-bold md:text-xl lg:text-3xl py-4 lg:py-10">
+        <p class="">widzimy się na kolejnym wielkim otwarciu!</p>
+        <p class="md:ml-2">do zoba!</p>
+    </div>
+    <div class="">
+        <img class="w-full md:hidden" src="images/historia-2.png" alt="Historia pasibusa">
+        <img class="w-full hidden md:block" src="images/historia-1.png" alt="Historia pasibusa">
+    </div>
+    <footer
+        class="-mt-0.5 h-60 bg-black flex flex-col text-xs items-center text-white justify-center space-y-8 uppercase sm:text-xl">
+        <div class="space-x-4 sm:space-x-10">
+            <a href="https://pasibus.pl/pl/regulaminy/" target="_blank">Regulamin</a>
+            <a href="https://praca.pasibus.pl/" target="_blank">Oferty pracy</a>
+            <a href="https://pasibus.pl/pl/kontakt/" target="_blank">kontakt</a>
+        </div>
+        <div class="flex gap-4 sm:gap-8">
+            <a class="w-6 sm:w-12" href="https://www.facebook.com/pasibus" target="_blank"><img src="icons/fb.svg"
+                    alt=""></a>
+            <a class="w-6 sm:w-12" href="https://www.instagram.com/pasibus" target="_blank"><img
+                    src="icons/instagram.svg" alt=""></a>
+            <a class="w-6 sm:w-12" href="https://www.tiktok.com/@pasibus" target="_blank"><img src="icons/tik-tok.svg"
+                    alt=""></a>
+            <!-- <a class="w-6 sm:w-12" href="https://twitter.com/pasibus" target="_blank"><img src="icons/x.svg" alt=""></a> -->
+            <!-- <a class="w-6 sm:w-12" href="https://www.threads.net/@pasibus" target="_blank"><img src="icons/threads.svg" alt=""></a> -->
+            <!-- <a class="w-6 sm:w-12" href="https://pl.linkedin.com/company/pasibuspl" target="_blank"><img src="icons/linkedin.svg" alt=""></a> -->
+        </div>
+        <div class="flex flex-col sm:flex-row text-xs sm:text-xl items-center">
+            <p>© Pasibus 2024</p>
+            <p class="hidden sm:block px-4">|</p>
+            <p>Wszelkie prawa zastrzeżone</p>
+        </div>
+    </footer>
+</body>
+
+</html>
